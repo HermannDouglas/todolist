@@ -14,11 +14,11 @@ import lombok.Data;
 @Data
 @Entity(name = "tb_users")
 public class UserModel {
-    
+
     @Id
     @GeneratedValue(generator = "UUID")
     private UUID id;
-    
+
     @Column(unique = true)
     private String username;
     private String name;
@@ -29,26 +29,26 @@ public class UserModel {
 
     // // Getters and Setters
     // public void setUsername(String username){
-    //     this.username = username;
+    // this.username = username;
     // }
 
     // public String getUsername(){
-    //     return this.username;
+    // return this.username;
     // }
 
     // public void setName(String name){
-    //     this.name = name;
+    // this.name = name;
     // }
 
     // public String getName(){
-    //     return this.name;
+    // return this.name;
     // }
 
     // public void setPassword(String password){
-    //     this.password = password;
+    // this.password = password;
     // }
 
     // public String getPassword(){
-    //     return this.password;
+    // return this.password;
     // }
 }
