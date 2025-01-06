@@ -32,6 +32,9 @@ Abra o navegador e acesse `http://localhost:8080` para ver a aplicação em exec
 - Editar tarefas
 - Listar tarefas
 
+## Interação com a Aplicação
+Esta é uma aplicação backend, sendo necessário usar uma ferramenta como o Postman para interagir com a API. Você pode enviar requisições HTTP para os endpoints da aplicação para realizar operações como cadastrar usuários, adicionar tarefas, editar tarefas e listar tarefas.
+
 ## Contribuição
 Para contribuir com o projeto, siga os passos abaixo:
 
