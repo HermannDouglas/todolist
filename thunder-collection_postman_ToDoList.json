@@ -1,0 +1,52 @@
+{
+    "info": {
+        "_postman_id": "585b8b0e-94a2-437d-84cd-bfbb86ae82eb",
+        "name": "ToDoList",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "Atualiza Tarefa",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "http://localhost:8080/tasks/22c00877-fed5-47d1-8256-e5ded02a9b7a",
+                    "path": [
+                        "tasks",
+                        "22c00877-fed5-47d1-8256-e5ded02a9b7a"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"title\": \"Gravação de Aula ATUALIZADA\"\n}"
+                },
+                "auth": {
+                    "type": "basic",
+                    "basic": [
+                        {
+                            "key": "username",
+                            "value": "hermann",
+                            "type": "string"
+                        },
+                        {
+                            "key": "password",
+                            "value": "hermann",
+                            "type": "string"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
